@@ -1,0 +1,417 @@
+{
+   "route":    {
+      "hasTollRoad": false,
+      "hasBridge": true,
+      "computedWaypoints": [],
+      "fuelUsed": 0.56,
+      "hasTunnel": false,
+      "hasUnpaved": false,
+      "hasHighway": true,
+      "realTime": 1377,
+      "boundingBox":       {
+         "ul":          {
+            "lng": -96.77275,
+            "lat": 33.003177
+         },
+         "lr":          {
+            "lng": -96.699104,
+            "lat": 32.84243
+         }
+      },
+      "distance": 13.334,
+      "time": 978,
+      "locationSequence":       [
+         0,
+         1
+      ],
+      "hasSeasonalClosure": false,
+      "sessionId": "59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+      "locations":       [
+                  {
+            "latLng":             {
+               "lng": -96.763876,
+               "lat": 32.84243
+            },
+            "adminArea4": "Dallas",
+            "adminArea5Type": "City",
+            "adminArea4Type": "County",
+            "adminArea5": "Dallas",
+            "street": "4601 Amesbury Dr",
+            "adminArea1": "US",
+            "adminArea3": "TX",
+            "type": "s",
+            "displayLatLng":             {
+               "lng": -96.763877,
+               "lat": 32.84243
+            },
+            "linkId": 9911671,
+            "postalCode": "75206-0003",
+            "sideOfStreet": "L",
+            "dragPoint": false,
+            "adminArea1Type": "Country",
+            "geocodeQuality": "POINT",
+            "geocodeQualityCode": "P1AAA",
+            "adminArea3Type": "State"
+         },
+                  {
+            "latLng":             {
+               "lng": -96.699108,
+               "lat": 33.001215
+            },
+            "adminArea4": "Dallas",
+            "adminArea5Type": "City",
+            "adminArea4Type": "County",
+            "adminArea5": "Richardson",
+            "street": "1415 State St",
+            "adminArea1": "US",
+            "adminArea3": "TX",
+            "type": "s",
+            "displayLatLng":             {
+               "lng": -96.699104,
+               "lat": 33.001216
+            },
+            "linkId": 11949853,
+            "postalCode": "75082-2147",
+            "sideOfStreet": "L",
+            "dragPoint": false,
+            "adminArea1Type": "Country",
+            "geocodeQuality": "ADDRESS",
+            "geocodeQualityCode": "L1AAA",
+            "adminArea3Type": "State"
+         }
+      ],
+      "hasCountryCross": false,
+      "legs": [      {
+         "hasTollRoad": false,
+         "index": 0,
+         "hasBridge": true,
+         "hasTunnel": false,
+         "roadGradeStrategy": [[]],
+         "hasHighway": true,
+         "hasUnpaved": false,
+         "distance": 13.334,
+         "time": 978,
+         "origIndex": 4,
+         "hasSeasonalClosure": false,
+         "origNarrative": "Go north on US-75 N.",
+         "hasCountryCross": false,
+         "formattedTime": "00:16:18",
+         "destNarrative": "Proceed to 1415 STATE ST.",
+         "destIndex": 5,
+         "maneuvers":          [
+                        {
+               "signs": [],
+               "index": 0,
+               "maneuverNotes": [],
+               "direction": 7,
+               "narrative": "Start out going west on Amesbury Dr toward Sandhurst Ln.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/icon-dirs-start_sm.gif",
+               "distance": 0.18,
+               "time": 46,
+               "linkIds": [],
+               "streets": ["Amesbury Dr"],
+               "attributes": 0,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:46",
+               "directionName": "West",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-1,32.84243,-96.763877,0,0|purple-2,32.843955,-96.76531899999999,0,0|&center=32.8431925,-96.76459799999999&zoom=13&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.763877,
+                  "lat": 32.84243
+               },
+               "turnType": 2
+            },
+                        {
+               "signs": [],
+               "index": 1,
+               "maneuverNotes": [],
+               "direction": 1,
+               "narrative": "Amesbury Dr becomes Jason Dr.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_straight_sm.gif",
+               "distance": 0.113,
+               "time": 35,
+               "linkIds": [],
+               "streets": ["Jason Dr"],
+               "attributes": 0,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:35",
+               "directionName": "North",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-2,32.843955,-96.76531899999999,0,0|purple-3,32.845577,-96.765655,0,0|&center=32.844766,-96.765487&zoom=12&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.765319,
+                  "lat": 32.843955
+               },
+               "turnType": 0
+            },
+                        {
+               "signs": [],
+               "index": 2,
+               "maneuverNotes": [],
+               "direction": 7,
+               "narrative": "Turn left onto E University Blvd.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_left_sm.gif",
+               "distance": 0.414,
+               "time": 59,
+               "linkIds": [],
+               "streets": ["E University Blvd"],
+               "attributes": 0,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:59",
+               "directionName": "West",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-3,32.845577,-96.765655,0,0|purple-4,32.84563,-96.77275,0,0|&center=32.845603499999996,-96.7692025&zoom=12&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.765655,
+                  "lat": 32.845577
+               },
+               "turnType": 6
+            },
+                        {
+               "signs": [],
+               "index": 3,
+               "maneuverNotes": [],
+               "direction": 1,
+               "narrative": "Turn right onto N Central Expy.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+               "distance": 0.428,
+               "time": 56,
+               "linkIds": [],
+               "streets": ["N Central Expy"],
+               "attributes": 0,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:56",
+               "directionName": "North",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-4,32.84563,-96.77275,0,0|purple-5,32.851486,-96.77085799999999,0,0|&center=32.848558,-96.771804&zoom=10&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.77275,
+                  "lat": 32.84563
+               },
+               "turnType": 2
+            },
+                        {
+               "signs": [               {
+                  "text": "75",
+                  "extraText": "",
+                  "direction": 1,
+                  "type": 2,
+                  "url": "http://icons.mqcdn.com/icons/rs2.png?n=75&d=NORTH"
+               }],
+               "index": 4,
+               "maneuverNotes": [],
+               "direction": 1,
+               "narrative": "Merge onto US-75 N via the ramp on the left.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_merge_left_sm.gif",
+               "distance": 10.923,
+               "time": 653,
+               "linkIds": [],
+               "streets": ["US-75 N"],
+               "attributes": 1152,
+               "transportMode": "AUTO",
+               "formattedTime": "00:10:53",
+               "directionName": "North",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-5,32.851486,-96.77085799999999,0,0|purple-6,32.993739999999995,-96.709533,0,0|&center=32.922613,-96.7401955&zoom=6&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.770858,
+                  "lat": 32.851486
+               },
+               "turnType": 11
+            },
+                        {
+               "signs": [               {
+                  "text": "28A",
+                  "extraText": "",
+                  "direction": 0,
+                  "type": 1001,
+                  "url": "http://icons.mqcdn.com/icons/rs1001.png?n=28A&d=RIGHT"
+               }],
+               "index": 5,
+               "maneuverNotes": [],
+               "direction": 1,
+               "narrative": "Take EXIT 28A toward Plano Pkwy.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_gr_exitright_sm.gif",
+               "distance": 0.454,
+               "time": 42,
+               "linkIds": [],
+               "streets": [],
+               "attributes": 1024,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:42",
+               "directionName": "North",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-6,32.993739999999995,-96.709533,0,0|purple-7,33.000189999999996,-96.708084,0,0|&center=32.996964999999996,-96.7088085&zoom=10&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.709533,
+                  "lat": 32.99374
+               },
+               "turnType": 14
+            },
+                        {
+               "signs": [],
+               "index": 6,
+               "maneuverNotes": [],
+               "direction": 1,
+               "narrative": "Merge onto N Central Expy.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_merge_right_sm.gif",
+               "distance": 0.206,
+               "time": 20,
+               "linkIds": [],
+               "streets": ["N Central Expy"],
+               "attributes": 0,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:20",
+               "directionName": "North",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-7,33.000189999999996,-96.708084,0,0|purple-8,33.003139,-96.707489,0,0|&center=33.0016645,-96.7077865&zoom=12&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.708084,
+                  "lat": 33.00019
+               },
+               "turnType": 10
+            },
+                        {
+               "signs": [],
+               "index": 7,
+               "maneuverNotes": [],
+               "direction": 8,
+               "narrative": "Turn right onto E President George Bush Hwy.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+               "distance": 0.444,
+               "time": 36,
+               "linkIds": [],
+               "streets": ["E President George Bush Hwy"],
+               "attributes": 0,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:36",
+               "directionName": "East",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-8,33.003139,-96.707489,0,0|purple-9,33.003177,-96.699905,0,0|&center=33.003158,-96.703697&zoom=11&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.707489,
+                  "lat": 33.003139
+               },
+               "turnType": 2
+            },
+                        {
+               "signs": [               {
+                  "text": "5",
+                  "extraText": "",
+                  "direction": 0,
+                  "type": 542,
+                  "url": "http://icons.mqcdn.com/icons/rs542.png?n=5"
+               }],
+               "index": 8,
+               "maneuverNotes": [],
+               "direction": 4,
+               "narrative": "Turn right onto N Plano Rd/TX-5.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_right_sm.gif",
+               "distance": 0.144,
+               "time": 18,
+               "linkIds": [],
+               "streets":                [
+                  "N Plano Rd",
+                  "TX-5"
+               ],
+               "attributes": 0,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:18",
+               "directionName": "South",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-9,33.003177,-96.699905,0,0|purple-10,33.001216,-96.699584,0,0|&center=33.0021965,-96.69974450000001&zoom=12&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.699905,
+                  "lat": 33.003177
+               },
+               "turnType": 2
+            },
+                        {
+               "signs": [],
+               "index": 9,
+               "maneuverNotes": [],
+               "direction": 8,
+               "narrative": "Turn left onto State St/TX-5. Continue to follow State St.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/rs_left_sm.gif",
+               "distance": 0.028,
+               "time": 13,
+               "linkIds": [],
+               "streets": ["State St"],
+               "attributes": 0,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:13",
+               "directionName": "East",
+               "mapUrl": "http://www.mapquestapi.com/staticmap/v4/getmap?key=YalmMlDd8ol6TKZ7rNKaFzgGXVQDfqZK&type=map&size=225,160&pois=purple-10,33.001216,-96.699584,0,0|purple-11,33.001208999999996,-96.69910399999999,0,0|&center=33.001212499999994,-96.699344&zoom=15&rand=-1018325448&session=59dfd566-02e3-001a-02b7-1edb-00163e7dd551",
+               "startPoint":                {
+                  "lng": -96.699584,
+                  "lat": 33.001216
+               },
+               "turnType": 6
+            },
+                        {
+               "signs": [],
+               "index": 10,
+               "maneuverNotes": [],
+               "direction": 0,
+               "narrative": "1415 STATE ST is on the left.",
+               "iconUrl": "http://content.mapquest.com/mqsite/turnsigns/icon-dirs-end_sm.gif",
+               "distance": 0,
+               "time": 0,
+               "linkIds": [],
+               "streets": [],
+               "attributes": 0,
+               "transportMode": "AUTO",
+               "formattedTime": "00:00:00",
+               "directionName": "",
+               "startPoint":                {
+                  "lng": -96.699104,
+                  "lat": 33.001209
+               },
+               "turnType": -1
+            }
+         ],
+         "hasFerry": false
+      }],
+      "formattedTime": "00:16:18",
+      "routeError":       {
+         "message": "",
+         "errorCode": -400
+      },
+      "options":       {
+         "mustAvoidLinkIds": [],
+         "drivingStyle": 2,
+         "countryBoundaryDisplay": true,
+         "generalize": -1,
+         "narrativeType": "text",
+         "locale": "en_US",
+         "avoidTimedConditions": false,
+         "destinationManeuverDisplay": true,
+         "enhancedNarrative": false,
+         "filterZoneFactor": -1,
+         "timeType": 0,
+         "maxWalkingDistance": -1,
+         "routeType": "FASTEST",
+         "transferPenalty": -1,
+         "walkingSpeed": -1,
+         "stateBoundaryDisplay": true,
+         "maxLinkId": 0,
+         "arteryWeights": [],
+         "tryAvoidLinkIds": [],
+         "unit": "M",
+         "routeNumber": 0,
+         "doReverseGeocode": true,
+         "shapeFormat": "raw",
+         "maneuverPenalty": -1,
+         "useTraffic": false,
+         "returnLinkDirections": false,
+         "avoidTripIds": [],
+         "manmaps": "true",
+         "highwayEfficiency": 22,
+         "sideOfStreetDisplay": true,
+         "cyclingRoadFactor": 1,
+         "urbanAvoidFactor": -1
+      },
+      "hasFerry": false
+   },
+   "info":    {
+      "copyright":       {
+         "text": "© 2017 MapQuest, Inc.",
+         "imageUrl": "http://api.mqcdn.com/res/mqlogo.gif",
+         "imageAltText": "© 2017 MapQuest, Inc."
+      },
+      "statuscode": 0,
+      "messages": []
+   }
+}
