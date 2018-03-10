@@ -13,7 +13,7 @@ public class APITest {
 
 	@Test
 	public void newsAPITest() {
-		List<NewsAPIResponse> news = new NewsAPI().getAllArticles();
+		List<NewsAPIResponse> news = new NewsAPI().getAllSources();
 		for (NewsAPIResponse source : news) {
 			System.out.println(source.getSource());
 			for (Article article : source.getArticles()) {

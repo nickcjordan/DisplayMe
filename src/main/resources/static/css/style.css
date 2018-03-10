@@ -1,4 +1,62 @@
-.feed {
-  	max-height: 900px;
- 	overflow-y: scroll;
+.scroll {
+  	height: 90vh;
+ 	overflow-y: auto;
+}
+
+.glowy {
+	text-shadow: 0 0 2px #000000, 0 0 5px #000000, 0 0 8px #000000, 0 0 12px #000000, 0 0 16px #000000, 0 0 20px #000000, 0 0 24px #000000, 0 0 7px #000000, 0 0 6px #000000, 0 0 4px #000000, 0 0 3px #000000;
+}
+
+.biggy {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.big-link {
+	font-size: 22pt;
+	color:#c8eef0;
+}
+
+.darky {
+	 filter: brightness(60%);
+}
+
+::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+} 
+::-webkit-scrollbar-track {
+      background-color: #ffffff;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: #c8eef0;
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: #ffffff;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+} 
+
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+}
+
+.weather {
+	height: 50px;
+	width: 230px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.sideways {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	max-height: 60px;
+	white-space: nowrap;
+	border: thin;
+	border-color: black;
 }

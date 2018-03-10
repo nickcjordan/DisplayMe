@@ -16,7 +16,6 @@ public class UpdateController {
 		updater.updateTrafficData();
 		updater.updateNewsData();
 		updater.updateJokeData();
-//		updater.updateFantasyData();
     	return updater.updateModel(model);
 	}
 	

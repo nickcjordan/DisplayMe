@@ -22,7 +22,7 @@ public class ModuleUpdater {
 	
 	public void updateWeatherData() {
     	Log.info("updating weather data...");
-    	Data.weather = (Modules.WEATHER.isactive()) ? new WeatherAPI().getWeather() : null;
+    	Data.weather = (Modules.WEATHER.isactive()) ? new WeatherAPI().getWeatherData() : null;
     	Log.info("updated.");
     }
     

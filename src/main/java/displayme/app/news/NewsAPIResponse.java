@@ -21,8 +21,18 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 })
 public class NewsAPIResponse implements Serializable
 {
+	
+	private String displayName;
+	
+    public String getDisplayName() {
+		return displayName;
+	}
 
-    @JsonProperty("status")
+	public void setDisplayName(String displayName) {
+		this.displayName = displayName;
+	}
+
+	@JsonProperty("status")
     private String status;
     @JsonProperty("source")
     private String source;
