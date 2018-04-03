@@ -13,121 +13,44 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-	
 <body>
 
-<!-- <div class="list-group list-group-horizontal">
-                <a href="#" class="list-group-item active">Item One</a>
-                <a href="#" class="list-group-item">Item Two</a>
-                <a href="#" class="list-group-item">Item Three</a>
-                <a href="#" class="list-group-item">Item Four</a>
-            </div> -->
+<%-- <%@include file="draftersTeam.jsp"%> --%>
 	    
-	<div class="container-fluid">
+	<div class="container-fluid background-gray line-height-one">
 	
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="sideways">
-				<c:forEach items="${forecastList}" var="forecast">
-				
-					<div class="weather">
-						<img class="" src="${forecast.iconUrl}">
-						<b>${forecast.temp}&deg;</b>
-						<%-- <h6> ${forecast.condition} [${forecast.conditionMore}]</h6>
-						<h6> ${forecast.windSpeed}  ${forecast.windDirection}</h6> --%>
-						<sub>${forecast.timestamp}</sub>
-					</div>
-					
-				</c:forEach>
-				</div>
-				
-				
-					<%-- <ul class="list-unstyled list-group list-group-horizontal">
-						<li class="media weather">
-								<img class="mr-1" src="${forecast.iconUrl}">
-								<h5> ${forecast.temp}&deg;</h5>
-								<h6> ${forecast.condition} [${forecast.conditionMore}]</h6>
-								<h6> ${forecast.windSpeed}  ${forecast.windDirection}</h6>
-								<h6>${forecast.timestamp}</h6>
-							<div class="media-body">
-								<h6> ${forecast.condition} [${forecast.conditionMore}]</h6>
-								<h6> ${forecast.windSpeed}  ${forecast.windDirection}</h6>
-								<h6>${forecast.timestamp}</h6>
-							</div>
-						</li>
-					</ul> --%>
-				<%-- <div class="list-group list-group-horizontal">
-					<c:forEach items="${forecastList}" var="forecast">
-					<div class="jumbotron weather">
-						<h5> ${forecast.temp}&deg;</h5>
-						<h6> ${forecast.condition} [${forecast.conditionMore}]</h6>
-						<h6> ${forecast.windSpeed}  ${forecast.windDirection}</h6>
-						<h6>${forecast.timestamp}</h6>
-					</div>
-					</c:forEach>
-				</div> --%>
-			</div>
+		<div class="row"> 
+			<%@include file="weather_forecast.jsp"%>
 		</div>
 	    
 		<div class="row">
 		
-		    <div class="col-2">
+		    <div class="col left-col scroll">
 		    
 			  	<a class="btn btn-primary" href="/update">update</a>
 			  	
-		    	<div class="jumbotron jumbotron-fluid">
-				    <h6><strong>Temperature:</strong> ${currentForecast.temp}&deg;</h6>
-				    <h6><strong>Sun:</strong> ${sunrise} to ${sunset}</h6>
-				    <h6><strong>Wind:</strong> ${currentForecast.windSpeed} mph to the ${currentForecast.windDirection}</h6>
-				    <h6><strong>Humidity:</strong> ${currentForecast.humidity}%</h6>
-				    <h6><strong>Cloud Coverage:</strong> ${currentForecast.cloudiness}%</h6>
-				    <h6><strong>UV Index:</strong> ${uvIndex}</h6>
+				<%@include file="coins.jsp"%>
+				
+				<div class="dark-box left-box padded">
+				    <div class="commute-text">Work commute: <b>${travelTime}</b></div>
+				    <div class="commute-text">Fuel used: <b>${fuelUsed}</b> gallons</div>
 				</div>
 				
-				<div class="jumbotron jumbotron-fluid">
-				    <h5>Work commute: <strong>${travelTime}</strong></h5>
-				    <h5>Fuel used: <strong>${fuelUsed}</strong> gallons</h5>
+				<div class="dark-box left-box padded">
+				    <div class="joke-header"><b>Daily Dad Joke:</b></div>
+				     <div class="joke-text">${joke}</div>
 				</div>
 				
-				<div class="jumbotron jumbotron-fluid">
-				    <h5>Dad joke of the day:</h5>
-				    <h4><strong>${joke}</strong></h4>
+				<div class="dark-box left-box padded">
+				    <div class="joke-header"><b>Daily Fact:</b></div>
+				     <div class="joke-text">
+				     	<script src="http://numbersapi.com/${date}/date?write&default=Nothing+found+for+this+day"></script>
+				     </div>
 				</div>
 				
 		    </div>
 		    
-			<c:forEach items="${news}" var="source">
-				<div class="col">
-					<div class="row">
-						<div class="col text-center">
-							<h4 class="biggy">${source.displayName}</h4>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col scroll">
-							
-							<c:forEach items="${source.articles}" var="article">
-								<ul class="list-unstyled">
-									<li class="media">
-									
-										 <div class="media-body">
-											<div class="card bg-dark text-white glowy">
-											 <img class="card-img img-thumbnail darky" src="${article.urlToImage}"/>
-											  <div class="card-img-overlay d-flex">
-											    <h5 class="card-title mt-auto text-white"><a href="${article.url}" class="big-link"><b>${article.title}</b></a></h5>
-											  </div>
-											</div>
-											${article.description}
-										</div>
-										
-									</li>
-								</ul>
-								<br>
-							</c:forEach>
-						</div>
-					</div>
-				</div>
-			</c:forEach>
+			<%@include file="news.jsp"%>
 				
 				
 		</div>

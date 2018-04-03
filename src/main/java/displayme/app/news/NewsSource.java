@@ -7,7 +7,11 @@ public enum NewsSource {
 	GOOGLE_NEWS("google-news", "Google News"),
 	TECHCRUNCH("techcrunch", "TechCrunch"),
 	ESPN("espn", "ESPN"),
-	USA_TODAY("usa-today", "USA Today");
+	USA_TODAY("usa-today", "USA Today"),
+	REDDIT("reddit-r-all", "Reddit /r/all"),
+	HACKER_NEWS("hacker-news", "Hacker News"),
+	BUSINESS_INSIDER("business-insider", "Business Insider"),
+	BUZZFEED("buzzfeed", "Buzzfeed");
 	
 	private String name;
 	private String displayName;

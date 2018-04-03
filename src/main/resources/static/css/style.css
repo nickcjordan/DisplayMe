@@ -1,6 +1,15 @@
 .scroll {
-  	height: 90vh;
  	overflow-y: auto;
+ 	white-space: normal;
+}
+
+.line-height-one {
+	line-height: 1.2em;
+}
+
+.no-scroll {
+	overflow: hidden;
+	height: 100%;
 }
 
 .glowy {
@@ -10,31 +19,33 @@
 .biggy {
 	font-weight: 600;
 	text-decoration: underline;
+	color: white;
 }
 
 .big-link {
-	font-size: 22pt;
+	font-size: 16pt;
 	color:#c8eef0;
 }
 
-.darky {
+.dark-pic {
 	 filter: brightness(60%);
+	 border-radius: 10px;
 }
 
 ::-webkit-scrollbar {
-      width: 4px;
-      height: 4px;
+      width: 6px;
+      height: 6px;
 } 
 ::-webkit-scrollbar-track {
-      background-color: #ffffff;
+      background-color: #373737;
 } /* the new scrollbar will have a flat appearance with the set background color */
  
 ::-webkit-scrollbar-thumb {
-      background-color: #c8eef0;
+      background-color: #428484;
 } /* this will style the thumb, ignoring the track */
  
 ::-webkit-scrollbar-button {
-      background-color: #ffffff;
+      background-color: #2d2d2d;
 } /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
  
 ::-webkit-scrollbar-corner {
@@ -45,18 +56,217 @@
     display: inline-block;
 }
 
-.weather {
-	height: 50px;
-	width: 230px;
-	overflow: hidden;
-	display: inline-block;
+.background-gray {
+	background-color: #2d2d2d;
+	height: 100vh;
 }
 
-.sideways {
+.backgroundy-white {
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.backgroundy-black {
+	background-color: #000000;
+	border-radius: 10px;
+}
+
+.padded {
+	padding: 10px;
+}
+
+.padded-sides {
+	padding-left: 2px;
+}
+
+.dark-box {
+	color: white;
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	box-shadow: inset 0 0 20px 1px black;
+}
+
+.news-border {
+	border-color: #4b92cb;
+	border-width: thin;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.float-left {
+	float: left;
+}
+
+.text-box {
+	text-align: center;
+	font-size: 10pt;
+	width: 50%;
+}
+
+.temp {
+	padding-top: 8px;
+	padding-left:10px;
+	padding-right:2px;
+	text-align: center;
+	width: 70%;
+}
+
+.larger-text {
+	font-size: larger;
+}
+
+.weather {
+	height: 75px;
+	width: 130px;
+	overflow: hidden;
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.sideways-weather {
 	overflow-x: scroll;
 	overflow-y: hidden;
-	max-height: 60px;
 	white-space: nowrap;
 	border: thin;
 	border-color: black;
+}
+.sideways-news {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	border: thin;
+	border-color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.small-font {
+	font-size: 8pt;
+	line-height: 1em;
+	white-space: normal;
+}
+
+.weather-text-overlay {
+	position: relative;
+	bottom: 14px;
+	left: 2px;
+	line-height: 1em;
+	text-align: center;
+	color: #969696;
+	font-size: 10pt;
+	white-space: normal;
+}
+
+.weather-text-box {
+	padding-top: 5px;
+	text-align: center;
+	width: 60%;
+}
+
+.weather-text-top {
+	position: relative;
+	bottom: 2px;
+	font-size: 15pt;
+	line-height: 1em;
+}
+
+.weather-text-middle {
+	position: relative;
+	font-size: 8pt;
+	line-height: 1em;
+}
+
+.weather-text-bottom {
+	position: relative;
+	font-size: 15pt;
+	line-height: 1.8em;
+	color: #bce9c1;
+}
+
+.weather-pic-box {
+	width: 40%;
+}
+
+.weather-icon {
+	position: relative;
+	bottom: 4px;
+	left: 4px;
+}
+
+.coin-header {
+	font-size: 12pt;
+	color: #8f8f8f;
+	text-align: center;
+}
+
+.coin-val {
+	font-size: 10pt;
+}
+
+.coin-balance {
+	font-size: 12pt;
+	text-align: center;
+}
+
+.coins-padded-edges {
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.left-col {
+	width: 15vw;
+	height: calc(100vh - (95px));
+}
+
+.left-box {
+	margin-top: 5px;
+}
+
+.news-col {
+	width: 16vw;
+	flex: 0 0 auto;
+	margin-right: 10px;
+}
+
+.news-box {
+	overflow-x: auto;
+	white-space: nowrap;
+	display: flex;
+  	flex-wrap: nowrap;
+  	width: 85vw;
+}
+
+.squeeze {
+	margin-bottom: 0.7rem;
+	margin-right: 3px;
+}
+
+.news-block {
+	height: calc(100vh - (134px));
+}
+
+.commute-text {
+	font-size: 12pt;
+}
+
+.joke-header {
+	font-size: 12pt;
+}
+
+.joke-text {
+	font-size: 10pt;
+}
+
+.fix-pad {
+    padding: .5rem;
+}
+
+p {
+	font-size: 12pt;
 }

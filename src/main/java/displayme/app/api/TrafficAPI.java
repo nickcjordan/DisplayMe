@@ -4,6 +4,7 @@ package displayme.app.api;
 import com.fasterxml.jackson.core.type.TypeReference;
 
 import displayme.app.traffic.TrafficAPIResponse;
+import displayme.model.Modules;
 
 public class TrafficAPI extends APIConnection {
 	

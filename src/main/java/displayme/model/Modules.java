@@ -1,16 +1,18 @@
-package displayme.app.api;
+package displayme.model;
 
 public enum Modules {
 	
 	WEATHER(true), 
 	TRAFFIC(true), 
 	NEWS(true), 
-	JOKE(true);
+	JOKE(true), 
 	
 //	WEATHER(false), 
 //	TRAFFIC(false), 
 //	NEWS(false), 
-//	JOKE(false);
+//	JOKE(false),
+//	CRYPTO(false);
+	CRYPTO(true);
 	
 	private boolean active;
 

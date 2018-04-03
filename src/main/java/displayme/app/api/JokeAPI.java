@@ -3,6 +3,7 @@ package displayme.app.api;
 import com.fasterxml.jackson.core.type.TypeReference;
 
 import displayme.app.joke.JokeAPIResponse;
+import displayme.model.Modules;
 
 public class JokeAPI extends APIConnection {
 

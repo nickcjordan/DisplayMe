@@ -2,29 +2,19 @@ package displayme.app.weather;
 
 import java.util.Date;
 
-import displayme.app.Data;
+import displayme.model.Data;
 
 public class WeatherUtility {
 
 	
 	@SuppressWarnings("deprecation")
 	public static String convertToTime(Date date) {
-		String suffix = "";
-		int hour = date.getHours();
-		if (hour > 12) {
-			hour = hour - 12;
-			suffix = "pm";
-		} if (hour < 1) {
-			hour = 12;
-		} if (hour < 12){
-			suffix = "am";
+		String minText = ":" + String.format("%02d", date.getMinutes());
+		if (date.getHours() < 12) {
+			return Integer.toString(date.getHours()) + minText + " am";
+		} else {
+			return  Integer.toString(date.getHours() - 12) + minText + " pm";
 		}
-		int minNum = date.getMinutes();
-		String min = String.valueOf(minNum);
-		if (minNum < 10) {
-			min = "0" + min;
-		}
-		return hour + ":" + min + " " + suffix;
 	}
 	
 	public static String getWindDirectionFromDegree(Double double1) {

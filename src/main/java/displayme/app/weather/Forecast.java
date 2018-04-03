@@ -14,6 +14,8 @@ public class Forecast {
 	private double windSpeed;
 	private String windDirection;
 	private String iconUrl;
+	private String dateText;
+	private String dayText;
 	
 	public void setIconUrl(String iconCode) {
 		this.iconUrl = urlPrefix + iconCode + urlSuffix;
@@ -73,4 +75,18 @@ public class Forecast {
 		this.windDirection = windDirection;
 	}
 	
+	public void setDateText(String dateText) {
+		this.dateText = dateText;
+	}
+	
+	public String getDateText() {
+		return dateText;
+	}
+	public void setDayText(String dayOfWeek) {
+		this.dayText = dayOfWeek;
+	}
+
+	public String getDayText() {
+		return dayText;
+	}
 }
